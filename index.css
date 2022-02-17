@@ -25,10 +25,19 @@ body {
           align-items: center;
 }
 
-.cvetok {
+.video-text {
+  color: #3f353c;
+  font-family: Caveat;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 90%;
+  text-align: center;
   margin: 0 auto;
-  margin-top: 40px;
-  color: #F4A460;
+  top: 125px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  position: absolute;
 }
 
 .app {
@@ -50,15 +59,40 @@ body {
 }
 
 .app > h2 {
-  color: #f26900;
+  color: #a30bc2;
   font-family: Caveat;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.5rem;
   width: 90%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: -10px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  line-height: 3rem;
+}
+
+.app > h3 {
+  color: #3f353c;
+  font-family: Caveat;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.app > p {
+  color: #3f353c;
+  font-family: Caveat;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .app > button {
@@ -69,7 +103,7 @@ body {
   cursor: pointer;
   width: 80%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: -20px;
   color: #604a4f;
 }
 
@@ -86,7 +120,7 @@ body {
 
 .sidebar {
   height: 100%;
-  width: 35%;
+  width: 40%;
   position: absolute;
   top: 0;
   left: 0;
@@ -116,7 +150,7 @@ body {
 }
 
 .sidebar h1 {
-  font-size: 40px;
+  font-size: 2rem;
   margin-bottom: 10px;
   margin-top: -30px;
 }
@@ -125,17 +159,18 @@ body {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 35%;
-  width: 65%;
+  left: 40%;
+  width: 60%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  background-size: contain;
 }
 
 .main-slide > div {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   height: 100%;
   width: 100%;
@@ -160,8 +195,8 @@ button:focus {
 
 .container .controls button {
   position: absolute;
-  left: 35%;
-  top: 50%;
+  left: 40%;
+  top: 31%;
   z-index: 100;
 }
 
@@ -181,6 +216,9 @@ button:focus {
 
 h1 {
   font-family: Caveat;
+  text-align: center;
+  font-size: 1rem;
+  width: 95%;
 }
 
 p {
@@ -192,31 +230,115 @@ p {
 }
 
 .side2 {
-  background: linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+  background: linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
 }
 
 .side3 {
-  background: linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+  background: linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
 }
 
 .side4 {
+  background: linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+}
+
+.side5 {
+  background: linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+}
+
+.side6 {
+  background: linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
+}
+
+.side7 {
+  background: linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.side8 {
+  background: linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+}
+
+.side9 {
+  background: linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+}
+
+.side10 {
+  background: linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
+}
+
+.side11 {
+  background: linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.side12 {
+  background: linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+}
+
+.side13 {
+  background: linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+}
+
+.side14 {
   background: linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
 }
 
 .slide1 {
-  background-image: url("https://images.unsplash.com/photo-1546074177-31bfa593f731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-image: url("./../images/1.jpg"), linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
 }
 
 .slide2 {
-  background-image: url("https://images.unsplash.com/photo-1500212802521-de7d7426f496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5ldyUyMHllYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: url("./../images/2.jpg"), linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
 }
 
 .slide3 {
-  background-image: url("https://images.unsplash.com/photo-1517315029683-c6497375b3da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-image: url("./../images/3.jpg"), linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
 }
 
 .slide4 {
-  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG5ldyUyMHllYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: url("./../images/4.jpg"), linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.slide5 {
+  background-image: url("./../images/5.jpg"), linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
+}
+
+.slide6 {
+  background-image: url("./../images/6.jpg"), linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+}
+
+.slide7 {
+  background-image: url("./../images/7.jpg"), linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+}
+
+.slide8 {
+  background-image: url("./../images/8.jpg"), linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.slide9 {
+  background-image: url("./../images/9.jpg"), linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
+}
+
+.slide10 {
+  background-image: url("./../images/10.jpg"), linear-gradient(221.87deg, #fa5abf 1%, #d80d0d 128%);
+}
+
+.slide11 {
+  background-image: url("./../images/11.jpg"), linear-gradient(215.32deg, #f26100 -1%, #f8842a 124%);
+}
+
+.slide12 {
+  background-image: url("./../images/12.jpg"), linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.slide13 {
+  background-image: url("./../images/13.jpg"), linear-gradient(220.16deg, #f3f3f3 -8%, #F39102 138%);
+}
+
+.slide14 {
+  background-image: url("./../images/14.jpg"), linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
+}
+
+.god {
+  color: #f057c2;
 }
 
 @media (min-width: 700px) and (max-width: 1019px) {
