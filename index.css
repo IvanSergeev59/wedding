@@ -25,6 +25,58 @@ body {
           align-items: center;
 }
 
+.cvetok {
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #F4A460;
+}
+
+.app {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.app > h2 {
+  color: #f26900;
+  font-family: Caveat;
+  font-weight: 400;
+  font-size: 3rem;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+.app > button {
+  background-color: transparent;
+  font-family: Caveat;
+  font-size: 2rem;
+  border: 1px solid #DC143C .5;
+  cursor: pointer;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #604a4f;
+}
+
+.app > button:hover {
+  color: black;
+}
+
 .container {
   position: relative;
   overflow: hidden;
@@ -75,10 +127,10 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
-  -webkit-transition: -webkit-transform 1.5s ease-in-out;
-  transition: -webkit-transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .main-slide > div {
@@ -87,10 +139,6 @@ body {
   background-position: center center;
   height: 100%;
   width: 100%;
-  -webkit-transition: -webkit-transform 1.5s ease-in-out;
-  transition: -webkit-transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
 }
 
 button {
@@ -129,6 +177,14 @@ button:focus {
           transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+h1 {
+  font-family: Caveat;
+}
+
+p {
+  font-family: Caveat;
 }
 
 .side1 {
@@ -176,10 +232,6 @@ button:focus {
   .app > button:hover {
     color: black;
   }
-  .slider__picture {
-    width: 65%;
-    height: 250px;
-  }
 }
 
 @media (max-width: 699px) {
@@ -194,17 +246,5 @@ button:focus {
   }
   .app > button:hover {
     color: black;
-  }
-  .slider__picture {
-    width: 100%;
-    height: 400px;
-    margin-left: 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .slider__picture::before {
-    content: "";
-    display: block;
-    padding-top: 60%;
   }
 }
