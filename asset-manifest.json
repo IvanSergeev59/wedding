@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.fa45d069.css",
+    "main.js": "/wedding/static/js/main.d74638b1.js",
+    "static/js/845.6ced04f2.chunk.js": "/wedding/static/js/845.6ced04f2.chunk.js",
+    "static/media/sound1.mp3": "/wedding/static/media/sound1.8b669af9d8f6abb1cbb3.mp3",
+    "static/media/ROAD.jpg": "/wedding/static/media/ROAD.b41baff6446a4e7f3a2e.jpg",
+    "index.html": "/wedding/index.html",
+    "main.fa45d069.css.map": "/wedding/static/css/main.fa45d069.css.map",
+    "main.d74638b1.js.map": "/wedding/static/js/main.d74638b1.js.map",
+    "845.6ced04f2.chunk.js.map": "/wedding/static/js/845.6ced04f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa45d069.css",
+    "static/js/main.d74638b1.js"
+  ]
+}
