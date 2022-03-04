@@ -1,10 +1,13 @@
-import {Fragment} from 'react'
+import {Fragment} from 'react';
+import main from "./images/main.jpeg"
+import qr from "./images/qr.svg"
 const MainPage = () => {
 
     return (
       <Fragment>
-        <div className="main-page"></div>
-        <div className='qr'></div>
+        <h2>Наша любимая Анюта! Поздравляем тебя с 8 Марта!</h2>
+        <img className="main-page" src={main}></img>
+        <img className='qr' src={qr}></img>
         </Fragment>
           );
   
